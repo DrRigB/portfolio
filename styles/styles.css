@@ -69,10 +69,13 @@ main {
     box-shadow: 0 0 130px red;
     color: #fff;
     animation: glow 6s infinite;
+    
 
 }
 
-
+img {
+max-width: 100px;
+}
 
 
 
@@ -90,6 +93,7 @@ ul {
 }
 .nav-bar a:hover {
     color:red;
+    transition: 0.3s;
 }
 .project {
     background-color: grey;
@@ -122,4 +126,13 @@ ul {
 .project a:hover {
     background-color: red; 
 }
+
+.project p {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px;
+
+}
+
 
